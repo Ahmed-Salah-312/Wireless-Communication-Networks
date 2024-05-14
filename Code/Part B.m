@@ -36,8 +36,7 @@ for SIR_min_dB=[14,19]
 for no_sectors=[1,3,6] 
 [N, reuse_ratio] = ClusterSize(SIR_min_dB, i0(i) ,path_loss_exponent); 
 for j=1:length(GOS_Range) 
-[traffic_intensity_per_cell, traffic_intensity_per_sector] = 
-TrafficIntensity(GOS_Range(j), no_sectors, total_channels, N); 
+[traffic_intensity_per_cell, traffic_intensity_per_sector] = TrafficIntensity(GOS_Range(j), no_sectors, total_channels, N); 
 [num_cells] = NumCells(traffic_intensity_per_cell, 
 traffic_intensity_per_user, user_density, city_area); 
 X=[X,ceil(num_cells)]; 
@@ -51,8 +50,7 @@ xlabel("Grade Of Service(GOS)");
 grid on; 
 hold on; 
 % Set the figure's position and size 
-set(gcf, 'Position', [x, y, width, height],'Name',sprintf('Number of Cells vs GOS At 
-%.d dB', SIR_min_dB)); 
+set(gcf, 'Position', [x, y, width, height],'Name',sprintf('Number of Cells vs GOS At %.d dB', SIR_min_dB)); 
 figure(4+k); 
 plot(GOS_Range,Y, 'LineWidth', 2); 
 title("Traffic Intensity Per Cell vs GOS At SIR="+SIR_min_dB+"dB"); 
@@ -115,7 +113,7 @@ for SIR_min_dB=[14,19]
     grid on; 
     hold on; 
     % Set the figure's position and size 
-     set(gcf, 'Position', [x, y, width, height], 'Name', sprintf('Cell Radiusvs vs User Density At %.d dB', SIR_min_dB)); 
+     set(gcf, 'Position', [x, y, width, height], 'Name', sprintf('Cell Radius vs User Density At %.d dB', SIR_min_dB)); 
   
     M=[]; 
     L=[]; 
