@@ -11,12 +11,8 @@ This repository contains a MATLAB project aimed at simplifying the planning proc
 
 - **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/planning-tool.git
+    git clone [https://github.com/yourusername/planning-tool.git](https://github.com/Ahmed-Salah-312/Wireless-Communication-Networks)
     ```
-
-- **Run the Script:**
-    - Open MATLAB and navigate to the cloned directory.
-    - Run the `main.m` script.
 
 - **Input Parameters:**
     - Follow the on-screen prompts to input parameters like Grade of Service (GOS), city area, user density, SIRmin, and sectorization method.
@@ -54,9 +50,6 @@ This repository contains a MATLAB project aimed at simplifying the planning proc
 - Plot the number of cells versus user density (100 to 2000 users/km^2) for SIRmin = 19dB & GOS = 2%.
 - Plot the cell radius versus user density (100 to 2000 users/km^2) for SIRmin = 19dB & GOS = 2%.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
