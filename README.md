@@ -54,7 +54,3 @@ This repository contains a MATLAB project aimed at simplifying the planning proc
 ## Acknowledgments
 
 - Thanks to the contributors who helped in developing this planning tool.
-
-## Disclaimer
-
-This tool is provided as-is and without any warranties. Use at your own risk.
