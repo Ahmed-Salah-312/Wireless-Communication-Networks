@@ -171,7 +171,7 @@ for SIR_min_dB=[14,19]
     grid on; 
     hold on; 
     % Set the figure's position and size 
-     set(gcf, 'Position', [x, y, width, height], 'Name', sprintf('Cell Radiusvs vs User Density At SIR=%.d dB', SIR_min_dB)); 
+     set(gcf, 'Position', [x, y, width, height], 'Name', sprintf('Cell Radius vs User Density At SIR=%.d dB', SIR_min_dB)); 
   
     M=[]; 
     L=[]; 
