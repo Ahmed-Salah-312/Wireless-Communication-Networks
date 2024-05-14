@@ -56,7 +56,7 @@ This repository contains a MATLAB project aimed at simplifying the planning proc
 - Thanks to the contributors who helped in developing this planning tool.
 
 ## Team members :
-- Ahmed Salah Abd elmonem                          
+- Ahmed Salah Abd elmonem : me                         
 - Asmaa Anwar Hamed : @as011
 - Gehad Magdy AbdelSabour Ahmed  :@Gehad220                    
 - Mohamed Hussein Ahmed : mohamedHusseinAhmedMohamed
